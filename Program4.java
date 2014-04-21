@@ -1,6 +1,6 @@
 /**
 Date: 3/31/2006
-Program created by Nader Kishek for program 4 CIS 2353 .
+Program created by Nader K for CIS 2353 .
 Filename: Program4.java
 This application processes the two data files sections.txt and register.txt,
 to show which classes students have signed up for,for the current semester.
