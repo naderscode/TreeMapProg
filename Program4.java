@@ -25,13 +25,13 @@ public class Program4
 		try
 		{
 			BufferedReader brSections = new BufferedReader(new FileReader("sections.txt"));
-         BufferedReader brReg = new BufferedReader(new FileReader("register.txt"));
+			BufferedReader brReg = new BufferedReader(new FileReader("register.txt"));
       	
 			/** Creating TreeSet sections to store the sections data.*/
 			MyTreeSet<String> sections = new MyTreeSet<String>();
 			
 			/** Creating TreeMap students, to store student names and the sections registered.*/
-      	MyTreeMap<String, TreeSet<String>> students = 
+      			MyTreeMap<String, TreeSet<String>> students = 
 														new MyTreeMap<String, TreeSet<String>>();
   
 					
