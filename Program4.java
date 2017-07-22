@@ -31,10 +31,8 @@ public class Program4
 			MyTreeSet<String> sections = new MyTreeSet<String>();
 			
 			/** Creating TreeMap students, to store student names and the sections registered.*/
-      			MyTreeMap<String, TreeSet<String>> students = 
-														new MyTreeMap<String, TreeSet<String>>();
+      			MyTreeMap<String, TreeSet<String>> students = new MyTreeMap<String, TreeSet<String>>();
   
-					
 			System.out.println("Loading Sections...."); 
 			/** reading and tokenizing the file sections.txt one line at a time.**/
 		 	String sline = brSections.readLine();
